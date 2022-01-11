@@ -1,0 +1,122 @@
+*{
+background-color: lightgrey;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+#anabaslik{
+    font-family: sans-serif;
+   text-align: center;
+   background-color: grey;
+   margin-bottom: 30px;
+
+}
+.header{
+    border: 1px solid black;
+    margin: 10px; 
+}
+.navbar{
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid red;
+    position: relative;
+}
+.navbar img{ 
+    margin-left: 50px;   
+    width: 15%;
+    border: 1px solid blue;
+}
+.navbar ul{
+    display: flex;
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.navbar ul li {
+    display: inline;
+    border-style: hidden;
+    border-radius: 5px;
+    float: right;
+}
+.navbar ul li a{
+    padding: 10px;
+    text-decoration: none;
+    color:grey;
+}
+
+ul :hover{
+    background-color: rgb(71, 255, 200);
+}
+li :hover{
+    color: lightgreen;
+    
+}
+
+.heading2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.paragraf1{
+    width: 480px;
+    float:left ;
+    padding-left: 30px;
+
+}
+.paragraf2{
+    width: 550px;
+    float:right ;
+   padding-right : 30px;
+
+}
+.paragraf3{
+    width: 450px;
+    float:left ;
+    padding-left: 30px;
+}
+
+.img1{
+   border: 1px solid orangered;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.img2{
+    border: 1px solid orangered;  
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.img3{  
+    border: 1px solid orangered;
+    margin-left: 140px;
+    margin-top: 30px;
+
+    
+
+}
+.firstArticle{
+    margin-bottom: 80px;
+
+}
+.secondArticle{
+    margin-bottom: 80px;
+}
+.thirdArticle{
+    margin-bottom: 80px;
+}
+.ayak>li{
+
+margin: 10px;
+text-decoration: none;
+ 
+}
+.yabagül{
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+    font-family: sans-serif;
+    background-color: silver;
+
+
+ 
+}
+
+
